@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/9a2c8b8a42.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="container1" id="ct1">
+        <i class="fa-solid fa-user"></i>
+        <div class="conteudo">
+        <p>Bem-Vindo ao Imc</p>
+        </div>
+        <div class="botao" onclick="etapaBemVindo()" ><i class="fa-solid fa-arrow-right"></i></div>
+    </div>
+
+    
+    <div class="container2" id="ct2">
+        <div class="height-box">
+            <i class="fa-solid fa-arrows-up-down"></i>        <p class="titulo">Altura</p>
+        </div>
+        <!-- onclick="etapaAltura()" -->
+        <div style="display: flex;width: 100%;">
+        <input type="text" id="myinputaltura" placeholder="digite sua altura..Ex: 1.7">
+        <i class="fa-solid fa-arrow-right" onclick="etapaAltura()"></i>
+        </div>
+        
+    </div>
+
+    <div class="container3" id="ct3">
+        <div class="height-box">
+            <i class="fa-solid fa-weight-hanging"></i>
+            <p class="titulo">Peso</p>
+        </div>
+        <div style="display: flex;width: 100%;">
+        <input class="myinput" type="text" id="myinputpeso" placeholder="digite seu peso..Ex: 60">
+        <i class="fa-solid fa-arrow-right" onclick="etapaPeso()"></i>
+        </div>
+    </div>
+
+    <div class="container4" id="ct4">
+        <div style="display: flex;flex-direction: column;">
+            <p id="resultadoimc">Resultado</p>
+            <p id="pesoideal"></p>
+        </div>
+    </div>
+
+
+    <!-- <p>Peso</p>
+    <input type="text" id="myinputweight">
+
+    <button onclick="calcular()">Calcular</button>
+        <i class="fa-solid fa-dumbbell"></i>
+    <p id="resultadoimc">Qual é o seu imc:</p>
+    <p id="pesoideal"></p> -->
+     
+</body>
+</html>
