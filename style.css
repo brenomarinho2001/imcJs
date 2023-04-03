@@ -46,8 +46,8 @@ i{
 
 .container1{
     position: relative;
-    min-width: 400px;
-    width: 60vw;
+    
+    width: 90vw;
 
     display: flex;
 
@@ -68,7 +68,7 @@ input{
 .container2{
 
     
-    width: 50vw;
+    width: 80vw;
     font-size: 25px;
     display: none;
     background-color: #fff;
@@ -83,7 +83,7 @@ input{
 
 
 .container3{
-    width: 50vw;
+    width: 80vw;
 
     display: none;
     font-size: 12px;
@@ -104,7 +104,7 @@ input{
 
 .container4{
     position: relative;
-    width: 50vw;
+    width: 80vw;
 
     display: none;
     font-size: 12px;
