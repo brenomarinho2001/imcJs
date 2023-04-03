@@ -18,10 +18,11 @@ function etapaAltura(){
     
 
     var myinputaltura = document.getElementById('myinputaltura')
-    console.log(myinputaltura.value)
+    console.log(typeof(myinputaltura.value))
     
 
-    if(myinputaltura.value != ''){
+
+    if(myinputaltura.value != '' && Number.isInteger(parseFloat(myinputaltura.value)) == false){
         var ct2 = document.getElementById('ct2')
         ct2.style.display = 'none'
         altura = myinputaltura.value
@@ -43,7 +44,7 @@ function etapaPeso(){
     console.log(myinputaltura.value)
     
 
-    if(myinputpeso.value != ''){
+    if(myinputpeso.value != '' && Number.isInteger(parseFloat(myinputpeso.value)) == true){
         var ct3 = document.getElementById('ct3')
         ct3.style.display = 'none'
         peso = myinputpeso.value
