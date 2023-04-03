@@ -67,7 +67,7 @@ function calcular(a,p){
     var resultado = peso/(altura * altura)
 
     var pa = document.getElementById('resultadoimc')
-    pa.innerHTML = 'O seu imc:' + resultado
+    pa.innerHTML = 'IMC:' + resultado.toFixed(0)
 
     var pesoideal = document.getElementById('pesoideal')
 
